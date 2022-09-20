@@ -1,0 +1,5 @@
+.hero {
+  background-image: url("../../images/header-pic.jpg");
+  background-size: cover;
+  height: 1032px;
+}

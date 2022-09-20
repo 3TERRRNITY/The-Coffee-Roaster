@@ -1,5 +1,6 @@
 import "./dist/index.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   const navbarLinks = [
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Navbar navbarLinks={navbarLinks} />
+      <Hero />
     </>
   );
 }
